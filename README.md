@@ -5,9 +5,9 @@
 The first steps towards building a report generator for analyzing data associated with Open Learning Objectives (OLO).
 ​
 Garner insights as to:
-* sum up number of OLOs in a collection
-* number of categories containing OLOs in a collection and # of OLOs in each of the categories
-* by-grade reports
+* sum up the number of OLOs in a collection
+* sum up number of categories containing OLOs in a collection and # of OLOs in each of the categories
+* generate 'by-grade' reports
 * use key word searches to locate important concepts
 
 Report Params
@@ -26,5 +26,5 @@ Report Params
 Suzanne Kozina
 ​
 ## License
-MIT License
+[MIT License](LICENSE.txt)
 ​

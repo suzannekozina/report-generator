@@ -1,0 +1,97 @@
+{
+	"open-learning-objectives": [
+	  {
+	  	"category": "Counting",
+	  	"description": "Contains learning objectives pertaining to counting",
+	  	"grade-range": "K-5",
+	  	"lobjectives": [
+	  	  {
+	  	  	"objective": "Count up to 20",
+	  	  	"commit-date": "2016-01-12",
+	  	  	"ccss-grade-mapping": {
+	  	  		"K": "K.CC.5",
+	  	  		"1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		},
+	  		{
+          "objective": "Count within 120",
+	  	  	"commit-date": "2016-01-12",
+          "ccss-grade-mapping": {
+	  	  		"K": "K.CC.3",
+	  	  		"1": "1.NBT.1",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		}
+	  	]
+	  },
+	  {
+	  	"category": "Comparison",
+	  	"description": "Contains learning objectives pertaining to comparison",
+	  	"grade-range": "K-5",
+	  	"lobjectives": [
+	  	  {
+	  	  	"objective": "Determine if numbers 0 - 20 are odd or even",
+	  	  	"commit-date": "2016-01-12",
+	  	  	"ccss-grade-mapping": {
+            "K": " ",
+	  	  		"1": " ",
+            "2": "2.OA.3",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		},
+	  		{
+          "objective": "Compare two 1-digit numbers using comparison symbols",
+	  	  	"commit-date": "2016-01-12",
+	  	  	"ccss-grade-mapping": {
+            "K": " ",
+	  	  		"1": "1.OA.7",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		}
+	  	]
+	  },
+	  {
+	  	"category": "Time",
+	  	"description": "Contains learning objectives pertaining to time",
+	  	"grade-range": "K-5",
+	  	"lobjectives": [
+	  	  {
+          "objective": "Tell time on a clock to hour and half-hour intervals",
+	  	  	"commit-date": "2016-01-12",
+	  	  	"ccss-grade-mapping": {
+            "K": " ",
+	  	  		"1": "1.MD.3",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		},
+	  		{
+          "objective": "Tell time on a clock to 5 minute intervals",
+	  	  	"commit-date": "2016-01-12",
+          "ccss-grade-mapping": {
+            "K": " ",
+	  	  		"1": " ",
+            "2": "2.MD.7",
+            "3": " ",
+            "4": " ",
+            "5": " "
+	  	  	}
+	  		}
+	  	]
+	  }
+	]
+}

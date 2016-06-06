@@ -1,39 +1,44 @@
 require 'json'
-path = File.join(File.dirname(__FILE__), '../data/products.json')
+path = File.join(File.dirname(__FILE__), '../data/lobjectives.json')
 file = File.read(path)
 products_hash = JSON.parse(file)
 
 # Print today's date
+# Sum totals for report
+	# Total number of objectives
+	# Total number of categories containing objectives
 
-puts "                     _            _       "
-puts "                    | |          | |      "
-puts " _ __  _ __ ___   __| |_   _  ___| |_ ___ "
-puts "| '_ \\| '__/ _ \\ / _` | | | |/ __| __/ __|"
-puts "| |_) | | | (_) | (_| | |_| | (__| |_\\__ \\"
-puts "| .__/|_|  \\___/ \\__,_|\\__,_|\\___|\\__|___/"
-puts "| |                                       "
-puts "|_|                                       "
-
-
-# For each product in the data set:
-  # Print the name of the toy
-  # Print the retail price of the toy
-  # Calculate and print the total number of purchases
+# For each objective in the data set:
+  # Print the objective
+  # Print the a list of ccss-grade-mapping
+  # Calculate and print the total number of ccss-grade-mapping tags
   # Calculate and print the total amount of sales
-  # Calculate and print the average price the toy sold for
-  # Calculate and print the average discount (% or $) based off the average sales price
+  # Calculate and print the the grade the objective is most emphasized
+		# Print formula/algoryithm for finding the emphasis
 
+# For each category in the data set:
+  # Print the name of the category
+  # Count and print the number of the objectives in the collection
+  # Calculate and print the grade objectives in the collection are most emphasized
+		# Print formula/algorithm for finding the emphasis
+  # Calculate and print the total number of ccss connections
 
-	puts " _                         _     "
-	puts "| |                       | |    "
-	puts "| |__  _ __ __ _ _ __   __| |___ "
-	puts "| '_ \\| '__/ _` | '_ \\ / _` / __|"
-	puts "| |_) | | | (_| | | | | (_| \\__ \\"
-	puts "|_.__/|_|  \\__,_|_| |_|\\__,_|___/"
-	puts
+# By-grade reports
+	# All objectives mapped to a certain grade
+	# Only 'emphasized' objectives mapped to the grade
+	# Search by CCSS and received list of OLO mapped to that CCSS code
 
-# For each brand in the data set:
-  # Print the name of the brand
-  # Count and print the number of the brand's toys we stock
-  # Calculate and print the average price of the brand's toys
-  # Calculate and print the total revenue of all the brand's toy sales combined
+	# PRINT TO REPORT TEXTFILE
+	# ------------------------
+	f = File.open("data/report.txt", "w")
+	old_out = $stdout
+	$stdout = f
+	# puts list.all
+	# puts new_list.all
+	# puts new_list.filter("event")
+	# puts new_list.filter("link")
+	# puts new_list.filter("todo")
+	f.close
+
+	$stdout = old_out
+	puts "goodbye :)"
