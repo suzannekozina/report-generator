@@ -34,10 +34,10 @@ def print_category_list
     $report_file.puts category["category"]
     $report_file.puts "********************************************"
   end
+	$report_file.puts $collection_hash["collection"].length
 end
 
-# Need an 'objective' class
-# Each objective must have a parent category
+# Each 'objective' must have a parent category
 
 def start
   setup_files # load, read, parse, and create the files
