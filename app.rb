@@ -1,7 +1,7 @@
 require 'json'
 path = File.join(File.dirname(__FILE__), '../data/lobjectives.json')
 file = File.read(path)
-products_hash = JSON.parse(file)
+data_hash = JSON.parse(file)
 
 # Print today's date
 # Sum totals for report
@@ -30,15 +30,15 @@ products_hash = JSON.parse(file)
 
 	# PRINT TO REPORT TEXTFILE
 	# ------------------------
-	f = File.open("data/report.txt", "w")
-	old_out = $stdout
-	$stdout = f
+	# f = File.open("data/report.txt", "w")
+	# old_out = $stdout
+	# $stdout = f
 	# puts list.all
 	# puts new_list.all
 	# puts new_list.filter("event")
 	# puts new_list.filter("link")
 	# puts new_list.filter("todo")
-	f.close
+	# f.close
 
-	$stdout = old_out
-	puts "goodbye :)"
+	# $stdout = old_out
+	# puts "goodbye :)"
