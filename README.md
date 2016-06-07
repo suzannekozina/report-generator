@@ -11,20 +11,21 @@ It is with great pleasure that in this project I'm integrating three of my most 
 * JSON - The portability of JSON is extremely exciting to me. It is also very easy to track detailed changes to data stored JSON with Git, or other distributed revision control systems. And I when I use JSON, Git, and GitHub together, I can see the 'diff' image for each revision on GitHub — gotta love that!
 
 ## Source for Datafile
-* Data for the JSON file was obtained on GitHub at OpenEd's public repository of [Open Learning Objectives](https://github.com/openedinc/OpenLearningObjectives) The data in OpenEd's repository is in Excel and XML.  I translated the data into JSON to take advantage of JSON's flexibility, readability, portability, and trackability.
+* Data for the JSON file was obtained on GitHub at OpenEd's public repository of [Open Learning Objectives](https://github.com/openedinc/OpenLearningObjectives). The data in OpenEd's repository is in Excel and XML.  I translated the data into JSON to take advantage of JSON's flexibility, readability, portability, and trackability.
 * The Open Learning Objectives project [curriculum license](https://github.com/openedinc/OpenLearningObjectives/blob/master/license.md)
 * More information about [Problems That OLO Addresses](https://github.com/openedinc/OpenLearningObjectives/blob/master/README.md)
 
 ## What the report-generator will do
 ###The report will analyze:
-* the number of OLOs in a collection
-* the number of categories containing OLOs in a collection and # of OLOs in each of the categories
-* 'by-grade' results
-* key words to locate important concepts
+* The total number of learning objectives in a collection
+* The number of categories containing learning objectives in a collection
+* The number of learning objectives in each of the categories
+* Option for 'by-grade' results
+* Key word matches to locate important concepts
 
 ###Report requirements:
-* must print out a formatted, human-readable report
-* generated reports can be saved to a new distributable file, such as a textfile
+* Must print out a formatted, human-readable report
+* Generated reports can be saved to a new distributable file, such as a textfile
 
 ## Built with
 *Ruby*

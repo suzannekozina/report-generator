@@ -6,7 +6,7 @@ def setup_files
 	path = File.join(File.dirname(__FILE__), '../data/lobjectives.json')
 	file = File.read(path)
 
-  $data_hash = JSON.parse(file)
+  $collection_hash = JSON.parse(file)
 	$report_file = File.new("data/report.txt", "w+")
 end
 
@@ -30,7 +30,7 @@ def print_date
 end
 
 def print_category_list
-  $data_hash["data"].each do |category|
+  $collection_hash["collection"].each do |category|
     $report_file.puts category["category"]
     $report_file.puts "********************************************"
   end
