@@ -7,17 +7,11 @@ def setup_files
 	file = File.read(path)
 
   $collection_hash = JSON.parse(file)
-	$report_file = File.new("data/report.txt", "w+")
-end
 
-def create_report
-  print_header
-  print_date
-  print_category_list
 end
 
 def print_header
-$report_file.puts"
+puts"
  __   ___  __   __   __  ___
 |__) |__  |__) /  \\ |__)  |
 |  \\ |___ |    \\__/ |  \\  |
@@ -26,21 +20,17 @@ end
 
 def print_date
     date = Time.now.strftime("%m/%d/%Y")
-    $report_file.puts date
+    puts date
 end
 
-def print_category_list
+def category_list
   $collection_hash["collection"].each do |category|
-    $report_file.puts category["category"]
-    $report_file.puts "********************************************"
+		puts category["category"]
   end
-	$report_file.puts $collection_hash["collection"].length
+	puts "********************************************"
+	puts $collection_hash["collection"].length
 end
 
 # Each 'objective' must have a parent category
-
-def start
-  setup_files # load, read, parse, and create the files
-  create_report # create the report!
-end
-start
+setup_files
+category_list

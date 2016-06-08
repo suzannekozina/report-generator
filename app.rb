@@ -28,17 +28,18 @@ data_hash = JSON.parse(file)
 	# Only 'emphasized' objectives mapped to the grade
 	# Search by CCSS and received list of OLO mapped to that CCSS code
 
-	# PRINT TO REPORT TEXTFILE
+
+	# PRINT REPORTS TO REPORT.TXT
 	# ------------------------
-	# f = File.open("data/report.txt", "w")
-	# old_out = $stdout
-	# $stdout = f
-	# puts list.all
+	f = File.open("report.txt", "w")
+	old_out = $stdout
+	$stdout = f
+	puts category_list.all
 	# puts new_list.all
 	# puts new_list.filter("event")
 	# puts new_list.filter("link")
 	# puts new_list.filter("todo")
-	# f.close
+	f.close
 
-	# $stdout = old_out
-	# puts "goodbye :)"
+	$stdout = old_out
+	puts "goodbye"
