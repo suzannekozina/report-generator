@@ -1,7 +1,6 @@
 require 'json'
-path = File.join(File.dirname(__FILE__), '../data/lobjectives.json')
-file = File.read(path)
-data_hash = JSON.parse(file)
+require_relative 'lib/data_helper'
+
 
 # Print today's date
 # Sum totals for report
@@ -34,7 +33,7 @@ data_hash = JSON.parse(file)
 	f = File.open("report.txt", "w")
 	old_out = $stdout
 	$stdout = f
-	puts category_list.all
+	puts category_list
 	# puts new_list.all
 	# puts new_list.filter("event")
 	# puts new_list.filter("link")
