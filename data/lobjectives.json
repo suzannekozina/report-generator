@@ -6,6 +6,7 @@
             "grade-range": "K-5",
             "lobjectives": [
                 {
+                    "id": "COU1",
                     "objective": "Count up to 20",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {
@@ -18,6 +19,7 @@
                     }
                 },
                 {
+                    "id": "COU2",
                     "objective": "Count within 120",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {
@@ -37,6 +39,7 @@
             "grade-range": "K-5",
             "lobjectives": [
                 {
+                    "id": "COM1",
                     "objective": "Determine if numbers 0 - 20 are odd or even",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {
@@ -49,6 +52,7 @@
                     }
                 },
                 {
+                    "id": "COM2",
                     "objective": "Compare two 1-digit numbers using comparison symbols",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {
@@ -68,6 +72,7 @@
             "grade-range": "K-5",
             "lobjectives": [
                 {
+                    "id": "TIM1",
                     "objective": "Tell time on a clock to hour and half-hour intervals",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {
@@ -80,6 +85,7 @@
                     }
                 },
                 {
+                    "id": "TIM2",
                     "objective": "Tell time on a clock to 5 minute intervals",
                     "commit-date": "2016-01-12",
                     "ccss-mapping": {

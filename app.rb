@@ -5,7 +5,7 @@ require_relative 'lib/data_helper'
 # Print today's date
 # Sum totals for report
 	# Total number of objectives
-	# Total number of categories containing objectives
+	# *Total number of categories containing objectives
 
 # For each objective in the data set:
   # Print the objective
@@ -34,10 +34,7 @@ require_relative 'lib/data_helper'
 	old_out = $stdout
 	$stdout = f
 	puts category_list
-	# puts new_list.all
-	# puts new_list.filter("event")
-	# puts new_list.filter("link")
-	# puts new_list.filter("todo")
+	puts objective_list
 	f.close
 
 	$stdout = old_out
