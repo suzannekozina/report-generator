@@ -45,7 +45,7 @@ require 'json'
 	    puts "********************************************"
 	  end
 	  puts "Total number of objectives in collection: #{total_objectives}"
-	  puts "********************************************"
+	  puts "=============================================="
 	end
 
 	setup_files

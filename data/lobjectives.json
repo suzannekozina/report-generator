@@ -214,6 +214,26 @@
                     }
                 }
             ]
+        },
+        {
+            "category": "Money",
+            "description": "Contains learning objectives pertaining to money",
+            "grade-range": "K-5",
+            "lobjectives": [
+                {
+                    "id": "MON1",
+                    "objective": "Know the value of individual coins",
+                    "commit-date": "2016-01-12",
+                    "ccss-mapping": {
+                        "grade-K": " ",
+                        "grade-1": " ",
+                        "grade-2": "Name the coins",
+                        "grade-3": " ",
+                        "grade-4": " ",
+                        "grade-5": " "
+                    }
+                }
+            ]
         }
     ]
 }
